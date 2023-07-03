@@ -1,0 +1,108 @@
+@media screen and (max-width: 1600px){
+	.bet-history-table .bet-history-table-inner{width: 1600px!important;}
+	.bet-history-table{overflow-y: auto;}
+}
+
+@media screen and (max-width: 1279px){
+	.price{font-size: 15px;padding-right: 15px;}
+	.price:first-child{margin-right: 15px;}
+	.price span{font-size: 20px;}
+	.refresh{padding-left: 15px;}
+	.box{padding: 15px;}
+	.box span{font-size: 36px;}
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+	.loginaction .btn{ font-size: 0.8rem; }
+}
+@media screen and (max-width: 1024px){
+	body, html{ height: 100%;}
+	body{ overflow-y: scroll;}
+	.login{overflow-y: scroll; }
+	.login-right{ padding: 30px 50px;}
+	.dashboard-table .dashboard-table-inner{width: 1100px!important;}
+	.dashboard-table{overflow-y: auto;}
+	.table-custom .bottom{text-align: left;}
+	.dataTables_wrapper .dataTables_paginate{margin-top: 30px;}
+	.memeber-title{-ms-flex-direction: column;flex-direction: column;margin-bottom: 15px;-ms-flex-align: start;align-items: flex-start;}
+	.search {margin-top: 15px;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	.search label {width: 100%;}
+	.search input{margin-left: 0;min-width: 200px;width: 200px;}
+	.search button{width: auto;}
+	
+	.configuration-table .table{width: 1100px!important;}
+	.configuration-table{overflow-y: auto;}
+
+	.modal-footer{padding: 15px;}
+	.modal-header{padding-left: 15px;padding-right: 15px;}
+	.configuration-table .table thead th,
+	.configuration-table .table tbody td{padding-left: 15px;padding-right: 15px;}
+	.modal-header, .modal-footer{ padding:10px 15px}
+	.modal-title{font-size: 20px;}
+	.modal-header .close{margin:7px 0 0 0;}
+	.inner{ flex-direction: column;}
+	.innerright{ margin-left: 0px;}
+}
+@media screen and (max-width: 991px){
+	.stat{margin-top: 30px;}
+	.report-table .report-table-inner{width: 1000px!important;}
+	.report-table{overflow-y: auto;}
+
+	.profile-main{margin-top: 30px;}
+	.restriction-main{margin-top: 30px;}
+}
+
+@media screen and (max-width: 767px){
+	.login-wrapper, .innerleft .form-row, .inner{ flex-direction: column;}
+	.innerleft .form-row .form-group{min-height:auto;}
+	.login-left, .login-right{ flex:1 1 100%; width: 100%;}
+	.addnew span{ display: none;}
+	.menu a{float: none;display: inline-block;vertical-align: middle;}
+	.menu{width: 52px;text-align: center;padding: 12px 0px 15px;}
+	body.toggle .menu{width: 52px;padding-right: 0;}
+	body.toggle .left{width: 52px;}
+	.content-part{padding-left: 52px;}
+	body.toggle .content-part{padding-left: 52px;}
+	.box .history-gap li{margin: 0 10px 10px;}
+	.profile-content .bet-config-table-outer{width: 800px!important;}
+	.profile-content{overflow-y: auto;}
+	.title h1{ font-size: 20px; line-height: 39px;}
+	.wizard .steps > ul li .bd-wizard-step-title{ display: block; font-size: 14px;}
+	.checked-box{width: calc(33.3333% - 20px);}
+	
+	
+}
+
+@media screen and (max-width: 640px){
+	.inner{ flex-direction: column;}
+	.innerright{ margin-left:0px;}
+	.switch{padding-left: 12px;padding-right: 12px;}
+	.user-avtar {padding-right: 14px;}
+	.user-avtar a.usertext{font-size: 0;padding: 0;width: 15px;vertical-align: top;}	
+	.user-avtar .dropdown-menu{width: 250px;}
+	.user-avtar .dropdown-menu:before{right: 12px;}
+	.logo{ height: 175px;}
+	.title{padding: 15px; min-height: 110px;}
+	.checkbox{ align-items: flex-start;}
+	.maindiv{margin-top:-40px;}
+	.price-div {align-items: start;-ms-flex-direction: column;flex-direction: column;margin-top: 15px;}
+	.price{border-right: none;}
+	.refresh {position: absolute;right: 15px;border: none;top: 12px;}
+	.content-div{padding-left: 15px;padding-right: 15px;}
+	.stat{margin-top: 15px;}
+	.datepicker .form-control{min-width: 200px;}
+}
+@media screen and (max-width: 1024px){
+	.login-right{ padding: 30px 25px;}
+	.loginaction{ flex-direction: column;}
+	.loginbtn, .login365{ width: 100%;}
+}
+
+@media screen and (max-width: 767px){
+	.login-wrapper{ flex-direction: column;}
+	.login-left, .login-right{ flex:1 1 100%; width: 100%;}
+
+}
+@media screen and (max-width: 480px){
+	.login-right{ padding: 30px 15px;}
+	.checked-box{width: calc(50% - 20px);}
+}
